@@ -1,0 +1,84 @@
+body {
+  background-color: rgba(23,23,80,0.7)
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-family: Sans-serif;
+  margin: 3px;
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input {
+  width: 98%;
+  height: 20px;
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: unset;
+  height: unset;
+  display: unset;
+  margin: 2px;
+  vertical-align: top;
+}
+
+textarea {
+  width: 98%;
+}
+
+label {
+  display: block;
+}
+
+/*.inline {
+  display: inline-block;
+} */
+
+form {
+  width: 50%;
+  color: white;
+  background-color: rgba(23,23,80,0.8);
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Tahoma;
+  /* height: 99%; */
+}
+
+
+
+.right {
+  text-align: left;
+  font-style: unset;
+}
+
+.top {
+  padding: 30px;
+  color: white;
+}
+
+.submit {
+  margin: 30 auto 0;
+  height: 34px;
+  background-color: rgb(50,50,255);
+  border-radius: 5px;
+  width: 30%;
+}
+
+select {
+  width: 98%;
+  height: 35px;
+}
+
+.container {
+  background-color: rgba(23,23,100,0.5)
+}
